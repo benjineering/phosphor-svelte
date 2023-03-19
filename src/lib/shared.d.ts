@@ -29,6 +29,11 @@ export interface IconProps {
    * @default false
    */
   mirrored?: boolean;
+  /**
+   * @type {string}
+   * @default ""
+   */
+  class?: string;
 }
 
 export class SvelteComponent<Props = {}> extends SvelteComponentTyped<
